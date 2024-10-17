@@ -1,0 +1,20 @@
+{
+  "name": "chatmod",
+  "version": "1.0.0",
+  "description": "Realtime chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "moment": "^2.30.1",
+    "qs": "^6.13.0",
+    "socket.io": "^4.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
